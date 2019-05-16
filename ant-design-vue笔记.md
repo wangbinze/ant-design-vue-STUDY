@@ -20,7 +20,7 @@
 *	如果你使用了 babel，强烈推荐使用 babel-polyfill 和 babel-plugin-transform-runtime 来替代以上两个 shim。
 
 ###	按需加载
-<<<<<<< HEAD
+
 
 ##	在 vue-cli 中使用
 
