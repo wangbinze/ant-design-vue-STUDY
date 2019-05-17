@@ -6,11 +6,14 @@
 ###	引入ant-design-vue
 *	安装脚手架工具(vle-cli)
 	*	`npm install -g @vue/cli`
-	*	#OR
+	*	OR
 	*	`yarn global add @vue.cli`
 *	创建一个项目
 	*	`vue craete antd-demo`
 	*	并配置项目。
+*	然后我们进入项目并启动
+	*	`cd antd-demo`
+	*	`npm run serve`
 *	使用组件
 	*	`npm install ant-design-vue --save`
 
@@ -25,3 +28,23 @@
 ##	在 vue-cli 中使用
 
 ###	安装和初始化
+	*	安装脚手架工具(vle-cli)
+		*	`npm install -g @vue/cli`
+		*	OR
+		*	`yarn global add @vue.cli`
+	*	创建一个项目
+		*	`vue craete antd-demo`
+		*	并配置项目。
+	*	然后我们进入项目并启动
+		*	`cd antd-demo`
+		*	`npm run serve`
+###	引入antd
+	*	从 yarn 或 npm 安装并引入 ant-design-vue。
+		*	`npm install ant-design-vue --save`
+		*	OR
+		*	`yarn add ant-design-vue`
+###	高级配置
+####使用babel-plugin-import
+*	[babel-plugin-import ](https://github.com/ant-design/babel-plugin-import)是一个用于按需加载组件代码和样式的 babel 插件。
+	*	`npm install babel-plugin-import --save-dev`
+
