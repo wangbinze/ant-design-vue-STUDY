@@ -48,3 +48,9 @@
 *	[babel-plugin-import ](https://github.com/ant-design/babel-plugin-import)是一个用于按需加载组件代码和样式的 babel 插件。
 	*	`npm install babel-plugin-import --save-dev`
 
+##	定制主题
+###	Ant Design Vue 的样式变量
+*	antd 的样式使用了 Less 作为开发语言，并定义了一系列全局/组件的样式变量，你可以根据需求进行相应调整。
+*	[所有样式变量](https://github.com/vueComponent/ant-design-vue/blob/master/components/style/themes/default.less)。
+
+###	定制方式
